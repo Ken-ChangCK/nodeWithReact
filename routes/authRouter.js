@@ -7,6 +7,6 @@ module.exports = app => {
     res.send(req.user)
   })
   app.get('/api/current_user', (req, res) => {
-    res.send(req.user)
+    res.send(req.Session)
   })
 }
