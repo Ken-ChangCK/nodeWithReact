@@ -1,6 +1,6 @@
 //找出 憑證return
 if (process.env.NODE_ENV == 'production') {
-  moudle.exports = require('./prod')
+  module.exports = require('./prod')
 } else {
-  moudle.exports = require('./dev')
+  module.exports = require('./dev')
 }
